@@ -959,14 +959,9 @@ Container contact_Part(){
         ),
       );
   }
-  @override
-  Widget build(BuildContext context) {
-    screeWidth = MediaQuery.of(context).size.width;
-    return Scaffold(
-      appBar: appBar_Part(),
-      endDrawer: drawer_Part(),
-      body: body_Part(),
-      floatingActionButton: FloatingActionButton(
+  
+  FloatingActionButton fab_Part(){
+    return FloatingActionButton(
         onPressed: (){
           scrollController.animateTo(
             0.0, 
@@ -980,7 +975,16 @@ Container contact_Part(){
         ),
         tooltip: "Back to Top",
         child: Icon(Icons.arrow_upward_sharp,size: 30,color: Colors.white),
-        ),
+        );
+  }
+  @override
+  Widget build(BuildContext context) {
+    screeWidth = MediaQuery.of(context).size.width;
+    return Scaffold(
+      appBar: appBar_Part(),
+      endDrawer: drawer_Part(),
+      body: body_Part(),
+      floatingActionButton: fab_Part()
     );
   }
 }
