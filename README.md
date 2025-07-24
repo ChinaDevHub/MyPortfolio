@@ -20,7 +20,7 @@ This app is built to showcase:
 ![Lab: Write your first Flutter app](screenshot/splash_page.png)
 ![Lab: Write your first Flutter app](screenshot/first_page.png)
 
-### 🙋‍♂️ About Me & Contack Section
+### 🙋‍♂️ About Me & Contact Section
 ![Lab: Write your first Flutter app](screenshot/experience.png)
 ![Lab: Write your first Flutter app](screenshot/tech-stack.png)
 
