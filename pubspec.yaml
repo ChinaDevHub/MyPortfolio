@@ -60,12 +60,12 @@ flutter:
   uses-material-design: true
 
   assets:
-    - lib/assets/
+    - assets/
 
   fonts:
     - family: Poppins
       fonts:
-        - asset: lib/assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -18,7 +18,7 @@ class FullImage extends StatelessWidget {
             child: InteractiveViewer(
               minScale: 0.5,
               maxScale: 4,
-              child: Image.asset("lib/assets/my.png")
+              child: Image.asset("assets/my.png")
               ),
           ),
     );
